@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.theme{
+    border: grey 3px solid;
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+.white{
+    background-color: white;
+ 
+}
+.mixa{
+  
+    background: linear-gradient(to bottom, rgb(46, 17,239), rgb(255, 0, 0));
+    transition: all 750ms;
+}
+.mixb{
+    
+    background: linear-gradient(to bottom, rgb(46, 17,239), rgb(255, 0, 0));
+    transition: all 750ms;
+}
+.otilo{
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    display: flex;
+    width: 50vw;
+    height: 15vh; 
+}
+h2{
+    color: purple;
+}
+.gen{margin: auto ;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    border: solid black;
+    border-radius: 10px;
+    width: 80vw;
+}

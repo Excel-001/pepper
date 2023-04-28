@@ -1,0 +1,70 @@
+.set{
+    border: solid black;
+    height: fit-content;
+    width: 80vw;
+border-radius: 10px;
+    padding: 1em;
+    margin: auto; 
+    margin-top: 3rem;
+}
+.gen2{
+    border-bottom: solid grey;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+  
+}
+.gen2 div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    border-radius: 50%;    
+}
+.topright p{
+    width: 5rem;
+    background-color: rgb(9, 235, 9);
+    border: none;
+    border-radius: 5px;
+    padding: 0.6rem;
+  
+}
+.gen3{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr ;
+ gap: 5px;
+ padding-top: 1em;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+    border-radius: 10px;
+    height: 5rem;
+    padding: 10px;
+    border: solid blueviolet 3px;
+    border-left: solid blueviolet 7px;
+}
+.toptop{
+    display: flex;
+    justify-content: space-between;
+}
+.delete{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
